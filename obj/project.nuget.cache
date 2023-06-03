@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "IrU6Un40N1TelvPivIyuORuZpJ9RjQj8jLo58vW8FKSXzYs+cf2mkiWjZZTNo8P5PK20nsm8oYyNf7Jt9nQZoQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\balon\\Desktop\\git-repos\\prog-quiz\\quizini.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\balon\\.nuget\\packages\\microsoft.data.sqlite\\8.0.0-preview.4.23259.3\\microsoft.data.sqlite.8.0.0-preview.4.23259.3.nupkg.sha512",
+    "C:\\Users\\balon\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.0-preview.4.23259.3\\microsoft.data.sqlite.core.8.0.0-preview.4.23259.3.nupkg.sha512",
+    "C:\\Users\\balon\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.4\\sqlitepclraw.bundle_e_sqlite3.2.1.4.nupkg.sha512",
+    "C:\\Users\\balon\\.nuget\\packages\\sqlitepclraw.core\\2.1.4\\sqlitepclraw.core.2.1.4.nupkg.sha512",
+    "C:\\Users\\balon\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.4\\sqlitepclraw.lib.e_sqlite3.2.1.4.nupkg.sha512",
+    "C:\\Users\\balon\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.4\\sqlitepclraw.provider.e_sqlite3.2.1.4.nupkg.sha512",
+    "C:\\Users\\balon\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}
