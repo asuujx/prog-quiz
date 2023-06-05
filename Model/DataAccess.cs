@@ -41,7 +41,7 @@ namespace quizini.Model
             SqliteDataReader reader = command.ExecuteReader();
             while (reader.Read())
             {
-                Question question = new Question((long)reader["id"], (string)reader["title"]);
+                Question question = new Question((long)reader["id"], DecodeBase64String((string)reader["title"]));
                 questions.Add(question);
             }
             conn.Close();
@@ -60,11 +60,25 @@ namespace quizini.Model
             SqliteDataReader reader = command.ExecuteReader();
             while(reader.Read())
             {
-                Answer answer = new Answer((long)reader["id"], (string)reader["text"], (long)reader["is_correct"]);
+                Answer answer = new Answer((long)reader["id"], DecodeBase64String((string)reader["text"]), (long)reader["is_correct"]);
                 answers.Add(answer);
             }
             conn.Close();
             return answers;
+        }
+
+        public string DecodeBase64String(string encodedString)
+        {
+            try
+            {
+                byte[] bytes = Convert.FromBase64String(encodedString);
+                return Encoding.UTF8.GetString(bytes);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Błąd dekodowania Base64: " + e.Message);
+                return null;
+            }
         }
     }
 }
