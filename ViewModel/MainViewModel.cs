@@ -224,7 +224,7 @@ namespace quizini.ViewModel
                             }
                         }
                         ,
-                        (o) => true
+                        (o) => isRun = false
                         );
                 return button1Logic;
             }
@@ -254,7 +254,7 @@ namespace quizini.ViewModel
                             }
                         }
                         ,
-                        (o) => true
+                        (o) => isRun = false
                         );
                 return button2Logic;
             }
@@ -284,7 +284,7 @@ namespace quizini.ViewModel
                             }
                         }
                         ,
-                        (o) => true
+                        (o) => isRun = false
                         );
                 return button3Logic;
             }
@@ -314,7 +314,7 @@ namespace quizini.ViewModel
                             }
                         }
                         ,
-                        (o) => true
+                        (o) => isRun = false
                         );
                 return button4Logic;
             }
